@@ -1,0 +1,23 @@
+name: dml4rec
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip=20.3.3
+  - cudatoolkit=10.2
+  - numpy=1.19.2
+  - pandas=1.2.0
+  - matplotlib=3.3.2
+  - scikit-learn=0.23.2
+  - pytest=6.2.1
+  - tensorboard=2.3.0
+  - pip:
+    - ujson==4.0.1
+    - yapf==0.30.0
+    - gpustat==0.6.0
+    - tqdm==4.56.0
+    - pylama==7.7.1
+    - pytorch_metric_learning==0.9.95
+    - tabulate==0.8.7

@@ -1,0 +1,25 @@
+{
+  "alg": "DML",
+  "batch_adjust": true,
+  "common_items_emb": true,
+  "dataset": "RR-5",
+  "emb_dim": 400,
+  "epochs": 150,
+  "i_activ": "tanh",
+  "loss": {
+    "name": "TripletLoss",
+    "normalize": false,
+    "s_margin": 1.0
+  },
+  "max_emb_norm": null,
+  "max_len": 15,
+  "s_net": {
+    "name": "TagSpace"
+  },
+  "sampler": {
+    "batch_size": 32,
+    "name": "SessionPosNegSampler",
+    "neg_len": 8,
+    "pos_len": 8
+  }
+}

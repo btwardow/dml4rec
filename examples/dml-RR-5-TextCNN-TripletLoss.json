@@ -1,0 +1,29 @@
+{
+  "alg": "DML",
+  "batch_adjust": true,
+  "common_items_emb": true,
+  "dataset": "RR-5",
+  "emb_dim": 400,
+  "epochs": 150,
+  "i_activ": "tanh",
+  "loss": {
+    "name": "TripletLoss",
+    "normalize": false,
+    "s_margin": 1.0,
+    "swap": true
+  },
+  "max_emb_norm": null,
+  "max_len": 15,
+  "s_net": {
+    "dropout_rate": 0.2,
+    "filter_sizes": "1,3,5",
+    "name": "TextCNN",
+    "num_filters": 700
+  },
+  "sampler": {
+    "batch_size": 32,
+    "name": "SessionPosNegSampler",
+    "neg_len": 8,
+    "pos_len": 8
+  }
+}

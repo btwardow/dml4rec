@@ -1,0 +1,9 @@
+.git/**
+.gitlab-ci.yml
+.ipynb_checkpoints/**
+.dockerignore
+
+data
+external/**/data
+docker
+

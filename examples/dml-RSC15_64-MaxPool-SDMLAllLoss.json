@@ -1,0 +1,26 @@
+{
+  "alg": "DML",
+  "batch_adjust": false,
+  "common_items_emb": true,
+  "dataset": "RSC15_64",
+  "emb_dim": 400,
+  "epochs": 150,
+  "i_activ": "tanh",
+  "loss": {
+    "label_softmax": true,
+    "name": "SDMLAllLoss",
+    "smoothing_parameter": 0.2
+  },
+  "max_emb_norm": 1.0,
+  "max_len": 15,
+  "s_net": {
+    "activ": "tanh",
+    "name": "MaxPool"
+  },
+  "sampler": {
+    "batch_size": 32,
+    "name": "SessionPosNegSampler",
+    "neg_len": 8,
+    "pos_len": 8
+  }
+}

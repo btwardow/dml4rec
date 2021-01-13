@@ -1,0 +1,41 @@
+out/
+logs/
+runs/
+results/
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+### macOS ###
+.DS_Store
+### Vim ###
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+*~
+tags
+[._]*.un~
+.vim/
+
+data/**/*.gz
+data/**/*.zip
+data/**/*.csv
+data/**/*.json
+data/**/*.jsonl
+data/**/*.dat
+
+run/
+**/__pycache__/*
+*.pyc
+.vscode/
+.idea/
+environment_local.yml
+**/.pytest_cache/**
+*.pt
+.history/
+results*/**
+newest_experiment_code/**
+* copy/

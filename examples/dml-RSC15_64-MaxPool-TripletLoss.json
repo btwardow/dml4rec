@@ -1,0 +1,26 @@
+{
+  "alg": "DML",
+  "common_items_emb": true,
+  "dataset": "RSC15_64",
+  "emb_dim": 400,
+  "epochs": 150,
+  "i_activ": "tanh",
+  "loss": {
+    "name": "TripletLoss",
+    "normalize": true,
+    "s_margin": 0.5,
+    "weighting": true
+  },
+  "max_emb_norm": 1.0,
+  "max_len": 15,
+  "s_net": {
+    "activ": "tanh",
+    "name": "MaxPool"
+  },
+  "sampler": {
+    "batch_size": 64,
+    "name": "SessionPosNegSampler",
+    "neg_len": 8,
+    "pos_len": 8
+  }
+}
