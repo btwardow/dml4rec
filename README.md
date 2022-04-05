@@ -2,8 +2,20 @@
 
 Code for the paper:  
 _**Metric Learning for Session-based Recommendations**_  
-*Bartłomiej Twardowski, Paweł Zawistowski, Szymon Zaborowski*  
-([arxiv](https://arxiv.org/abs/2101.02655))
+*Bartłomiej Twardowski, Paweł Zawistowski, Szymon Zaborowski*
+European Conference on Information Retrieval 2021
+([arxiv](https://arxiv.org/abs/2101.02655), [ECIR2021](https://link.springer.com/chapter/10.1007/978-3-030-72113-8_43))
+
+```bibtex
+@inproceedings{twardowski2021metric,
+  title={Metric Learning for Session-Based Recommendations},
+  author={Twardowski, Bart{\l}omiej and Zawistowski, Pawe{\l} and Zaborowski, Szymon},
+  booktitle={European Conference on Information Retrieval},
+  pages={650--665},
+  year={2021},
+  organization={Springer}
+}
+```
 
 ## Environment set-up
 
